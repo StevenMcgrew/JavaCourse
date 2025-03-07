@@ -6,5 +6,6 @@ public class Main {
         System.out.print("Enter some text: ");
         String age = s.nextLine().trim();
         System.out.println("Your text: " + age);
+
     }
 }
