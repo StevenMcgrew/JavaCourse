@@ -1,9 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter some text: ");
+        String age = s.nextLine().trim();
+        System.out.println("Your text: " + age);
     }
 }
